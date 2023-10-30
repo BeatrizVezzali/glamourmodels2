@@ -1,0 +1,115 @@
+.cabecalho{
+    justify-content: center;
+
+    display: flex;
+
+    gap: 10px;
+
+    background-color: rgb(251, 251, 251);
+}
+
+.formataLink{
+    text-decoration: none;
+
+    color:rgb(251, 251, 251);
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: bold;
+
+    justify-content: space-around;
+}
+
+a:hover{
+    color: rgb(185, 183, 183);
+}
+
+.menu{
+    background-color: rgb(39, 38, 38);
+
+    display: flex;
+
+    height: 40px;
+
+    width: 100%;
+
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.footer{
+    margin-top: auto;
+
+    background-color: rgb(39, 38, 38);
+
+    display: flex;
+
+    height: 200px;
+
+    width: 100%;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-style: normal;
+
+    color: white;
+
+    justify-content: space-around;
+
+    align-items: normal;
+
+    text-align: justify;
+
+    white-space: nowrap;
+
+    line-height: 60px;
+}
+
+.site{
+    transform: translate(-1020px, 100px);  
+}
+
+.imgInstagram{
+    transform: translate(200px, 0px);
+}
+
+.imgLocalizacao{
+    transform: translate(100px, 0px);
+}
+
+.instagram{
+    transform: translate(90px, 0px);
+}
+
+.localizacao{
+    transform: translate(30px, 0px);
+}
+
+.localizacao2{
+    transform: translate(0px, -45px);
+}
+
+.tituloInscricao{
+   text-align: left;
+
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   font-style: normal;
+}
+
+.textoSite{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-style: normal;
+}
+
+.sucesso{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   font-style: normal;
+
+   font-weight: bold;
+
+   text-align: center;
+}

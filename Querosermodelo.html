@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=HTML,CSS,Bootstrap,Projeto>
+    <meta="author" content="Beatriz Andrade Vezzali">
+        <title>Quero ser modelo</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link href="Estilo.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/png" href="Logo Glamour Models.png">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="Glamour Logo v2.png" height="50">
+    </header>
+    <nav class="menu">
+        <a href="Index.html" class="formataLink">Início</a>
+        <a href="Nossahistória.html" class="formataLink">Nossa história</a>
+        <a href="Querosermodelo.html" class="formataLink">Quero ser modelo</a>
+        <a href="Sucesso.html" class="formataLink">Sucesso</a>
+    </nav>
+    <br>
+    <div class="row justify-content-md-center">
+        <div class="jumbotron col-5">
+
+            <div class="tituloInscricao">
+                <h4>Preencha o formulário para se inscrever:</h4>
+            </div>
+            <br>
+
+            <form method="post">
+
+                <p>
+                    <label for="nome">Nome completo:</label>
+                    <input for="nome" required>
+                </p>
+
+                <p>
+                    <label for="idade">Idade:</label>
+                    <input type="number">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email">
+                </p>
+
+                <p>
+                    <label for="telefone">Telefone com DDD:</label>
+                    <input type="tel">
+                </p>
+
+                <p>
+                    Sexo:
+                </p>
+                <input type="radio" id="masculino" name="opção1" value="Masculino">
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="feminino" name="opção2" value="Feminino">
+                <label for="feminino">Feminino</label>
+                <br>
+
+                <!-- O botão de enviar não faz nada no momento -->
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <p>
+                        <input type="submit" class="btn btn-secondary me-md-2" value="Enviar">
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+    <footer class="footer">
+        <div class="imgInstagram">
+            <img src="Instagram-Logo-2016.png" height="70">
+        </div>
+
+        <div class="instagram">
+            <p>@glamourmodels</p>
+        </div>
+
+        <div class="imgLocalizacao">
+            <img src="Localização.png" height="80">
+        </div>
+
+        <div class="localizacao">
+            <p>Av.Itaquera, 8266 - Vila Carmosina, São Paulo - SP</p>
+            <div class="localizacao2">
+                <p>CEP: 08295-000</p>
+            </div>
+        </div>
+
+        <div class="site">
+            <span>&copy;2023 - Glamour Models</span>
+        </div>
+    </footer>
+</body>
+
+</html>
